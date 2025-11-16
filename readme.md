@@ -2,6 +2,7 @@
 -- Section 1 & 2
 
 1. Element : is everything from the start tag to the end tag. Ex: <div> ...</div>
+
 2. Child Element : is an element that is directly nested inside another element. Ex: <div><p>...</p></div>
 3. Contents : generally refers to the information and elements contained within HTML tags . Ex: <div> Contents </div>
 4. Attribute : provide additional information about HTML elements such as src,id,class,src and href ... Ex: <a href="https://www...">Attribute</a>
