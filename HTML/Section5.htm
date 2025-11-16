@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Basic For-->
+    <h1>Basic Form</h1>
+    <form action="#">
+      <label for="UserName">UserName</label>
+      <input name="UserName" id="UserName" type="text" placeholder="UserName" />
+
+      <label for="Email">Email</label>
+      <input name="Email" id="Email" type="email" placeholder="Email" />
+
+      <label for="Password">Password</label>
+      <input
+        name="password"
+        id="Password"
+        type="password"
+        placeholder="Password"
+      />
+
+      <input type="submit" id="btnSubmit" value="Submit" />
+      <input type="reset" id="btnreset" value="Clear" />
+
+      <!----- Default Value ----->
+      <!-- <label for="UserName">UserName</label>
+      <input
+        name="UserName"
+        id="UserName"
+        type="text"
+        placeholder="UserName"
+        value="I'm Preap Ny"
+      /> -->
+
+      <!------- Button VS Input ------->
+      <!-- <input type="submit" id="btnSubmit" value="Button submit" />
+      <input type="reset" id="btnreset" value="Clear" /> -->
+
+      <button type="submit">Button Sunmit</button>
+      <button type="reset">Button Clear</button>
+
+      <!-- Radio & Select Option -->
+      <h1>Radio & Select Option</h1>
+      <label> Gender:</label><br />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="M" />
+      <label for="femal">Femal</label>
+      <input type="radio" name="gender" id="femal" value="F" />
+      <button type="submit" id="btn">Submit</button>
+
+      <!-- Select Option-->
+      <h1>Select Option</h1>
+      <label>Country: </label>
+      <select name="cntry" id="cntry">
+        <option value="1">United States</option>
+        <option selected value="855">Cambodia</option>
+        <option value="856">Lao</option>
+        <option value="84">Vietnam</option>
+        <option value="86">China</option>
+      </select>
+      <button type="submit" id="btn2">Submit</button>
+      <!--Checkbok-->
+      <h1>Checkbok</h1>
+      <label>Languages:</label><br />
+      <label for="kh">Khmer</label>
+      <input checked type="checkbox" name="Language" id="kh" value="kh" />
+      <label for="en">English</label>
+      <input type="checkbox" name="Language" id="en" value="en" />
+      <label for="ch">China</label>
+      <input type="checkbox" name="Language" id="ch" value="ch" />
+      <button type="submit" id="btn3">Submit</button>
+
+      <!-- More Inpu Type-->
+      <h1>More Input Type</h1>
+      <textarea
+        name="info"
+        id=""
+        cols="100"
+        rows="5"
+        maxlength="20"
+        placeholder="More Information"
+      ></textarea>
+    </form>
+  </body>
+</html>

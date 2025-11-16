@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Inline Style -->
+    <style>
+      aside {
+        width: 40%;
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        float: right;
+        box-shadow: inset 5px 0 5px -5px #29627e;
+        font-style: italic;
+        color: #29627e;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>1.Div & Span Element</h1>
+    <!-- Simple poster not yet apply CSS-->
+    <div class="main-poster" style="background-color: rgb(221, 124, 124)">
+      <!-- This <div> we can replace by semantic elements <article>-->
+      <div class="header-poster">
+        <img src="" alt="" />
+        <h3>Name</h3>
+        <span>Jack ma...</span>
+      </div>
+      <div class="poster">
+        <p>
+          <span class="poster-style">Lorem ipsum dolor sit amet</span>
+          consectetur adipisicing elit. Ducimus provident reprehenderit
+          dignissimos cum soluta libero voluptatem quo pariatur, sint placeat.
+        </p>
+        <img src="" alt="" />
+      </div>
+      <div class="btn-poster">
+        <button>Like</button>
+        <button>Comment</button>
+        <button>Share</button>
+      </div>
+    </div>
+
+    <h1>2.Semantic Element</h1>
+    <!-- Simple poster not yet apply CSS-->
+    <!-- Instead of using <div>, we can use semantic elements like <section> and <footer>.-->
+    <section class="poster-one" style="background-color: gray">
+      <h3>Lorem ipsum dolor sit amet.</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+        asperiores!
+      </p>
+    </section>
+    <section class="poster-two" style="background-color: rgb(103, 103, 233)">
+      <h3>Lorem, ipsum dolor.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </section>
+    <section class="poster-two" style="background-color: rgb(170, 212, 92)">
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, vel?
+      </p>
+    </section>
+    <footer class="btlfoot" style="background-color: yellow">
+      <button>Like</button>
+      <button>Comment</button>
+      <button>Share</button>
+    </footer>
+    <br />
+    <!-- Sematic element <article>-->
+    <h1>3.Sematic element article</h1>
+    <article class="main-poster" style="background-color: rgb(228, 57, 57)">
+      <header class="header-poster">
+        <img src="" alt="" />
+        <h3>Name</h3>
+        <span>Jack ma...</span>
+      </header>
+      <div class="poster">
+        <p>
+          <span class="poster-style">Lorem ipsum dolor sit amet</span>
+          consectetur adipisicing elit. Ducimus provident reprehenderit
+          dignissimos cum soluta libero voluptatem quo pariatur, sint placeat.
+        </p>
+        <img src="" alt="" />
+      </div>
+      <footer class="btn-poster">
+        <button>Like</button>
+        <button>Comment</button>
+        <button>Share</button>
+      </footer>
+    </article>
+    <!-- Sematic element <aside>-->
+    <h1>4.Sematic element aside</h1>
+    <p>
+      Salamanders are a group of amphibians with a lizard-like appearance,
+      including short legs and a tail in both larval and adult forms.
+    </p>
+
+    <aside>
+      <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+    </aside>
+
+    <p>
+      Several species of salamander inhabit the temperate rainforest of the
+      Pacific Northwest, including the Ensatina, the Northwestern Salamander and
+      the Rough-skinned Newt. Most salamanders are nocturnal, and hunt for
+      insects, worms and other small creatures.
+    </p>
+  </body>
+</html>

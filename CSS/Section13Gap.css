@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* use gap  */
+  column-gap: 20px;
+  row-gap: 20px;
+  border: 2px solid gray;
+}
+/*------ aling seft*/
+.cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: brown;
+  height: 80vh;
+}
+.cont > .box2 {
+  align-self: flex-start;
+  background-color: blueviolet;
+}
+.cont > .box4 {
+  align-self: flex-end;
+  background-color: goldenrod;
+}

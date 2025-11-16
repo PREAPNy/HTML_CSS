@@ -1,0 +1,74 @@
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  transition: all 0.2s ease;
+  animation: moving-square 5s infinite;
+  border-radius: 50%;
+}
+
+@keyframes moving-square {
+  0% {
+    background-color: gold;
+  }
+  20% {
+    background-color: gold;
+    /* moving right */
+    transform: translateX(150px);
+  }
+  50% {
+    background-color: gold;
+    /* moving right and bottun */
+    transform: translate(150px, 200px);
+  }
+  75% {
+    background-color: gold;
+    /* moving left and bottun */
+    transform: translate(-150px, 200px);
+  }
+  100% {
+    background-color: gold;
+    /* moving left and top */
+    transform: translate(-150px, -200px);
+  }
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  transition: all 0.2s ease;
+  animation: moving-square1 5s infinite;
+  border-radius: 50%;
+}
+
+@keyframes moving-square1 {
+  0% {
+    background-color: blue;
+  }
+  20% {
+    /* moving button */
+    transform: translateY(150px);
+  }
+  50% {
+    /* moving button and right */
+    transform: translate(150px, 150px);
+  }
+  75% {
+    transform: translate(150px, -150px);
+  }
+  100% {
+    transform: translate(-150px, -150px);
+  }
+}
+/* -------- Animation Property */
+.box:hover {
+  animation-play-state: paused;
+}
+.box1:hover {
+  animation-play-state: paused;
+}

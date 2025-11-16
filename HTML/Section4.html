@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Apply Inline Style -->
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid gray;
+        border-collapse: collapse;
+        padding: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lists</h1>
+    <ul>
+      <li><a target="_blank" href="../HTML/index.html">Index page</a></li>
+      <li><a target="_blank" href="../HTML/Section3.html">Section3 page</a></li>
+      <li><a target="_blank" href="../HTML/Section4.html">Section4 page</a></li>
+    </ul>
+    <h1>Nested List</h1>
+    <ul>
+      <li>
+        Front End
+        <ol>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JAVACRIPT</a></li>
+        </ol>
+      </li>
+      <li>
+        Back End
+        <ol>
+          <li><a href="#">C#</a></li>
+          <li><a href="#">JAVA</a></li>
+          <li><a href="#">Pythone</a></li>
+        </ol>
+      </li>
+    </ul>
+    <h1>HTML Table</h1>
+    <h3>Simple Table 1</h3>
+    <table>
+      <!-- Table Header -->
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Position</th>
+      </tr>
+      <!-- Table Data -->
+      <tr>
+        <td>Sok Dara</td>
+        <td>20</td>
+        <td>Front End Developer</td>
+      </tr>
+      <tr>
+        <td>Vichika</td>
+        <td>22</td>
+        <td>Back End Developer</td>
+      </tr>
+    </table>
+    <h3>Simple Table 2</h3>
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>Vichet</td>
+        <td>Sa</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>23</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <th>Position</th>
+        <td>Teacher</td>
+        <td>Student</td>
+      </tr>
+    </table>
+    <!-- Merge Table Cells -->
+    <h1>Merge Table Cells</h1>
+    <table>
+      <tr>
+        <th colspan="2">FullName</th>
+        <th>Gender</th>
+      </tr>
+      <tr>
+        <td>Jack</td>
+        <td>Ma</td>
+        <td>M</td>
+      </tr>
+      <tr>
+        <td>Sok</td>
+        <td>Pisey</td>
+        <td>F</td>
+      </tr>
+    </table>
+    <br />
+    <!--simple 2-->
+    <table>
+      <tr>
+        <th>Name</th>
+        <td>Mey</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Phone</th>
+        <td>0983493848</td>
+      </tr>
+      <tr>
+        <!--merge row-->
+        <td>088374343</td>
+      </tr>
+    </table>
+    <!-- Semantic Table Elements-->
+    <h1>Semantic Table Elements</h1>
+    <table>
+      <theader>
+        <th>Name</th>
+        <th>Exspence</th>
+      </theader>
+      <tbody>
+        <td>Coca-cola</td>
+        <td>2000</td>
+      </tbody>
+      <tbody>
+        <td>Beer</td>
+        <td>4000</td>
+      </tbody>
+      <tfoot>
+        <th>Total</th>
+        <td>6000</td>
+      </tfoot>
+    </table>
+  </body>
+</html>

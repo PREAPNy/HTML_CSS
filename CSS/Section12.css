@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 2px solid gold; */
+}
+.box {
+  /* width: 700px; */
+  height: 500px;
+  background-image: url("../IMG/swans-9273244_640.jpg");
+  background-repeat: no-repeat; /*remove repeat BG*/
+  background-size: cover;
+  /* background-position: center;
+  background-position-x: left;
+  background-position-y: bottom; */
+}
+.section-one {
+  background-attachment: fixed; /*bg image can't scroll*/
+  background-image: url("../IMG/nature-9881953_640.png");
+}
+.section-two {
+  background-attachment: fixed; /*bg image can't scroll*/
+  background-image: url("../IMG/swans-9273244_640.jpg");
+}
+h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  color: gold;
+}
+p {
+  font-size: 2rem;
+}
+section {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Step Apply Gradient Color  */
+.box-grad {
+  height: 500px;
+  /* background-color: rebeccapurple; */
+  /* background-image: radial-gradient(red, blue, green); */
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 000, 000),
+    rgb(000, 255, 000),
+    rgba(000, 000, 255, 0.5)
+  );
+}
+
+/* Step apply Overlay  */
+.box-overlay {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("../IMG/lizard-9763797.jpg");
+}
+
+/* Step apply Text Gradient Color  */
+.txt-gradient {
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 200px;
+  background-image: linear-gradient(to right, red, blue, yellow);
+  color: transparent;
+  background-clip: text;
+}
+
+/* Exercise -> Text Gradient Color */
+.exercise12 {
+  text-align: center;
+  margin-top: 200px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 4rem;
+}
+span {
+  background-image: linear-gradient(to right, red, yellow, blue);
+  color: transparent;
+  background-clip: text;
+}

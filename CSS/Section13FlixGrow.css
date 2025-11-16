@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  height: 80vh;
+  row-gap: 10px;
+  column-gap: 10px;
+  background-color: gray;
+  border: 10px solid red;
+}
+
+.dev1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  flex-grow: 1;
+}
+
+.dev2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(157, 255, 0);
+}
+.dev3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(215, 33, 203);
+  flex-grow: 1;
+}

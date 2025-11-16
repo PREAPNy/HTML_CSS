@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+}
+/* ---------padding  */
+.parent {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  /* padding: 20px; */
+  /* padding-left: 20px;
+  padding-top: 20px; */
+  padding: 20px 0px 0px 20px;
+}
+.child {
+  /* width: 100%; */
+  /* height: 100%; */
+  color: white;
+  background-color: blueviolet;
+  padding: 20px;
+}
+/* ---------Margin */
+.box1 {
+  /* width: 300px; */
+  height: 150px;
+  background-color: aqua;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.box2 {
+  height: 150px;
+  background-color: blueviolet;
+  padding-left: 30px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+.box3 {
+  height: 150px;
+  background-color: rgb(191, 228, 90);
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+.box4 {
+  height: 150px;
+  background-color: rgb(226, 43, 104);
+  padding-left: 30px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  font-size: 3rem;
+  color: white;
+}
+
+/* --------- Border */
+.container {
+  width: 700px;
+  height: 700px;
+  background-color: aquamarine;
+  margin: 10px 0px 0px 10px;
+  /* ---border */
+  /* border-width: 20px;
+  border-style: solid;
+  border-color: red; */
+  /* border: 20px double red; */
+  border-top: 20px solid rebeccapurple;
+  border-right: 20px groove rgb(209, 36, 108);
+  border-left: 20px double rosybrown;
+  border-bottom: 20px dotted yellow;
+}
+p {
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
+  /* text-decoration: line-throughs; */
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  line-height: 1.7;
+  text-align: justify;
+  text-indent: 50px;
+}
+/* ---------border-radius */
+.container-two {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(191, 238, 20);
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.container-three {
+  width: 700px;
+  height: 300px;
+  background-color: rgb(238, 205, 20);
+  border-radius: 100px;
+  margin: 10px;
+}
+
+/* ---------Border VS Outline */
+.box-one {
+  width: 700px;
+  height: 200px;
+  background-color: blue;
+  border: 20px solid gold;
+}
+.box-two {
+  margin: 20px;
+  width: 700px;
+  height: 200px;
+  background-color: rgb(18, 207, 128);
+  outline: 20px solid gray;
+  outline-offset: -50px;
+}
+
+/* ---------box-sizing */
+.box-three {
+  width: 100vh;
+  height: 400px;
+  background-color: chartreuse;
+}
+.box-four {
+  width: 100%;
+  height: 200px;
+  background-color: blueviolet;
+  border: 30px solid rgb(194, 16, 16);
+  border-radius: 40px;
+  /* apply box-sizing */
+  box-sizing: border-box;
+}
+/*list*/
+.li {
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+}
+.li li {
+  margin-right: 20px;
+}
+.li a {
+  text-decoration: none;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.li a:hover {
+  color: rgb(111, 0, 255);
+  font-size: 3.5rem;
+}

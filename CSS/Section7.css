@@ -1,0 +1,56 @@
+/* External Style  */
+.heading {
+  color: blue;
+}
+.txt {
+  color: red;
+}
+#txt-two {
+  color: yellowgreen;
+}
+
+.heading,
+p {
+  font-size: 30px;
+}
+/* Inherit CSS Properties */
+.wrapper {
+  color: brown;
+}
+
+/* Target to child elements. */
+/* direct to a <p> child of main element*/
+.container > p {
+  font-size: 40px;
+  color: aqua;
+}
+/* direct to all <p> child of main*/
+/* .container p {
+  font-size: 40px;
+  color: aqua;
+} */
+
+/* Target via attribute type */
+div > input[type="email"] {
+  font-size: 20px;
+  color: blueviolet;
+}
+/* check start with */
+div > a[href^="https"] {
+  font-size: 20px;
+  color: rgb(223, 8, 115);
+}
+/* check end with */
+div > img[src$="png"] {
+  width: 200px;
+}
+/* Dynamic class */
+.txt-size-50 {
+  font-size: 50px;
+}
+.txt-emphasize {
+  font-style: italic;
+}
+.txt-bold {
+  font-weight: bold;
+}

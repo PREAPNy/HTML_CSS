@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 3px;
+  font-size: 1.5rem;
+}
+/* ------Transform Translate */
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  position: relative;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+/* ------- Rotate */
+.box1,
+.box2,
+.box3,
+.box4 {
+  color: white;
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(49, 22, 204);
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+.box1:hover {
+  transform: rotate(-90deg);
+}
+.box2:hover {
+  transform: rotate(90deg);
+}
+.box3:hover {
+  transform: rotateX(-50deg);
+}
+.box4:hover {
+  transform: rotateY(50deg);
+}
+/* ------ 
+Scale and Skew */
+.scale,
+.skew,
+.box5,
+.box6,
+.box7,
+.box8 {
+  color: white;
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(99, 184, 31);
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+.scale:hover {
+  transform: scale(0.5, 0.5);
+}
+.box5:hover {
+  transform: scaleX(0.3);
+}
+.box6:hover {
+  transform: scaleY(0.3);
+}
+.skew:hover {
+  transform: skew(50deg);
+  background-color: blueviolet;
+}
+.box7:hover {
+  transform: skewX(40deg);
+  background-color: blueviolet;
+}
+.box8:hover {
+  transform: skewY(-40deg);
+  background-color: blueviolet;
+}
