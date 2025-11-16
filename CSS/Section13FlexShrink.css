@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 3px;
+  background-color: gray;
+  height: 80vh;
+  border: 10px solid blue;
+}
+
+.contain > .dev {
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: darkorange;
+}
+
+.box1 {
+  flex-shrink: 0;
+}
+.box1,
+.box2 {
+  flex-grow: 1;
+}
