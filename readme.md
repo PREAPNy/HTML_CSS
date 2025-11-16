@@ -23,7 +23,7 @@
 -- Section 4
 
 16. Lists <ul> or <ol>,<li>: list is
-17. Nested List <li ... <ol> or <il>>:
+17. Nested List <li ... <ol> or <il>>: Nested List is
 18. HTML Table <table <tr <td>>>:
 19. Merge Table Cells 'colspan' or 'rowspan' attribute:
 20. Semantic Table Element <thead> ,<tbody> , <tfoot>:
