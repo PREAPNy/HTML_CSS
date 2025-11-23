@@ -55,7 +55,7 @@ body {
   color: gray;
 }
 .btn {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: white;
   background-color: gray;
   padding: 10px 30px;
@@ -75,7 +75,7 @@ body {
     transform: scale(1);
   }
   to {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 }
 @keyframes rotate {

@@ -121,3 +121,5 @@
 71. Flex-Directon:
 72. justify-content: it controls the aliment of the main axis of a flex container.
 73. align-items: it controls the alignment of items on the cross axis.
+
+-- Secetion 19: 74. Grid :
